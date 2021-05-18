@@ -3,7 +3,7 @@ body {
   padding: 0.5rem 1rem 0rem 1rem;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+
 
 .menu_droite {
   display: flex;
@@ -93,7 +93,7 @@ main p {
 .searchButton {
   width: 120px;
   height: 36px;
-  border: 1px solid #0065fc;
+  border: none;
   background: #0065fc;
   text-align: center;
   color: #f2f2f2;
@@ -214,7 +214,7 @@ main p {
 }
 
 .info i {
-  border: 2px 2px 2px solid #000000;
+  border: 2px solid #000000;
   color: #0065fc;
 }
 
@@ -232,6 +232,7 @@ main p {
   padding: 40px;
   border-radius: 20px;
 }
+
 
 .hébergement img {
   border-radius: 20px 20px 0px 0px;
@@ -533,17 +534,19 @@ footer h2 {
 }
 
 .a_propos {
-  margin-left: 50px;
+  
   font-size: 15px;
+  width: 33%;
 }
 
 .nos_hebergements {
-  margin-left: 100px;
+  
   font-size: 15px;
+  width: 33%;
 }
 
 .assistance {
-  margin-left: 100px;
+  width: 33%;
   font-size: 15px;
 }
 
@@ -705,13 +708,13 @@ footer h2 {
   }
 
   .img_act_2 {
-    min-width: none;
+    min-width: 0;
     height: 240px;
     border-radius: 20px 20px 20px 20px;
   }
 
   .img_act_3 {
-    min-width: none;
+    min-width: 0;
     height: 140px;
   }
 
@@ -721,7 +724,7 @@ footer h2 {
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
-    min-width: none;
+    min-width: 0;
   }
 
   .img_act_5 {
@@ -798,7 +801,7 @@ footer h2 {
     color: #0065fc;
     border-bottom: 3px solid #0065fc;
     padding-bottom: 15px;
-    padding-left: -50;
+    
   }
 
   .menu_droite_portable_inscrire {
@@ -837,7 +840,7 @@ footer h2 {
   .loupe {
     display: inline;
     width: 30px;
-    border: 1px solid #0065fc;
+    border: none;
     background: #0065fc;
     text-align: center;
     color: #f2f2f2;
@@ -908,13 +911,13 @@ footer h2 {
     object-fit: cover;
     width: 100%;
     max-width: 350px;
-    min-width: none;
+    min-width: 0;
   }
 
   .hébergement {
     height: 180px;
     max-width: 350px;
-    min-width: none;
+    min-width: 0;
     width: fit-content;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
     padding-bottom: 10px;
@@ -985,50 +988,50 @@ footer h2 {
 
   .img_act_1 img {
     height: 140px;
-    min-width: none;
+    min-width: 0;
   }
 
   .img_act_2 img {
     height: 140px;
-    min-width: none;
+    min-width: 0;
   }
 
   .img_act_3 img {
     height: 140px;
-    min-width: none;
+    min-width: 0;
   }
 
   .img_act_4 img {
     height: 140px;
-    min-width: none;
+    min-width: 0;
   }
 
   .img_act_5 img {
     height: 140px;
-    min-width: none;
+    min-width: 0;
   }
 
   .img_act_6 img {
     height: 140px;
-    min-width: none;
+    min-width: 0;
   }
 
   .img_act_1 {
-    min-width: none;
+    min-width: 0;
     height: 180px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
     border-radius: 20px 20px 20px 20px;
   }
 
   .img_act_2 {
-    min-width: none;
+    min-width: 0;
     height: 180px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
     border-radius: 20px 20px 20px 20px;
   }
 
   .img_act_3 {
-    min-width: none;
+    min-width: 0;
     height: 180px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
     border-radius: 20px 20px 20px 20px;
@@ -1038,21 +1041,21 @@ footer h2 {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
     height: 180px;
     border-radius: 20px 20px 20px 20px;
-    min-width: none;
+    min-width: 0;
     margin-left: 0px;
   }
 
   .img_act_5 {
     height: 180px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
-    min-width: none;
+    min-width: 0;
     border-radius: 20px 20px 20px 20px;
   }
 
   .img_act_6 {
     height: 180px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.205);
-    min-width: none;
+    min-width: 0;
     border-radius: 20px 20px 20px 20px;
   }
 
@@ -1087,17 +1090,20 @@ footer h2 {
     margin-left: 0px;
     font-size: 15px;
     padding-left: 20px;
+    width: 80%;
   }
 
   .nos_hebergements {
     margin-left: 0px;
     font-size: 15px;
     padding-left: 20px;
+    width: 80%;
   }
 
   .assistance {
     margin-left: 0px;
     font-size: 15px;
     padding-left: 20px;
+    
   }
 }
